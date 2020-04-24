@@ -761,7 +761,7 @@
             "join": "Tap to join",
             "roomname": "Enter room name"
         },
-        "appDescription": "Go ahead, video chat with the whole team.",
+        "appDescription": "",
         "audioVideoSwitch": {
             "audio": "Voice",
             "video": "Video"
