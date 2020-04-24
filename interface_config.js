@@ -16,7 +16,7 @@ var interfaceConfig = {
     TOOLBAR_ALWAYS_VISIBLE: false,
     DEFAULT_REMOTE_DISPLAY_NAME: 'Fellow Jitster',
     DEFAULT_LOCAL_DISPLAY_NAME: 'me',
-    SHOW_JITSI_WATERMARK: true,
+    SHOW_JITSI_WATERMARK: false,
     JITSI_WATERMARK_LINK: 'https://jitsi.org',
 
     // if watermark is disabled by default, it can be shown only for guests
@@ -31,7 +31,7 @@ var interfaceConfig = {
     APP_NAME: 'Neutrinos Meet',
     NATIVE_APP_NAME: 'Neutrinos Meet',
     PROVIDER_NAME: 'Neutrinos',
-    LANG_DETECTION: true, // Allow i18n to detect the system language
+    LANG_DETECTION: false, // Allow i18n to detect the system language
     INVITATION_POWERED_BY: true,
 
     /**
