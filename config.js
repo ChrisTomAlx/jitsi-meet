@@ -197,7 +197,7 @@ var config = {
 
     // Whether to enable live streaming or not.
     liveStreamingEnabled: true,
-    hiddenDomain: 'record.default.svc',
+    hiddenDomain: 'recorder.testmeet.neutrinos.co',
     // Transcription (in interface_config,
     // subtitles and buttons can be configured)
     // transcribingEnabled: false,
