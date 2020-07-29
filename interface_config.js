@@ -28,8 +28,8 @@ var interfaceConfig = {
     GENERATE_ROOMNAMES_ON_WELCOME_PAGE: true,
     DISPLAY_WELCOME_PAGE_CONTENT: false,
     DISPLAY_WELCOME_PAGE_TOOLBAR_ADDITIONAL_CONTENT: false,
-    APP_NAME: 'Neutrinos Meet',
-    NATIVE_APP_NAME: 'Neutrinos Meet',
+    APP_NAME: 'Meet',
+    NATIVE_APP_NAME: 'Meet',
     PROVIDER_NAME: 'Neutrinos',
     LANG_DETECTION: false, // Allow i18n to detect the system language
     INVITATION_POWERED_BY: true,
@@ -207,7 +207,7 @@ var interfaceConfig = {
     * If this is set to false, the banner will not be rendered at all. If set to true, the check for extension(s)
     * being already installed is done before rendering.
     */
-    SHOW_CHROME_EXTENSION_BANNER: false
+    SHOW_CHROME_EXTENSION_BANNER: false,
 
     /**
      * When enabled, the kick participant button will not be presented for users without a JWT
@@ -245,8 +245,9 @@ var interfaceConfig = {
      * explicitly dismissed through a user action. The value is how long, in
      * milliseconds, those notifications should remain displayed.
      */
-    // ENFORCE_NOTIFICATION_AUTO_DISMISS_TIMEOUT: 15000,
+    ENFORCE_NOTIFICATION_AUTO_DISMISS_TIMEOUT: 3000,
 
+    makeJsonParserHappy: 'even if last key had a trailing comma'
     // List of undocumented settings
     /**
      INDICATOR_FONT_SIZES
