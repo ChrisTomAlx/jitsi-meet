@@ -193,7 +193,7 @@ var config = {
     // Whether to show the possibility to share file recording with other people
     // (e.g. meeting participants), based on the actual implementation
     // on the backend.
-    fileRecordingsServiceSharingEnabled: true,
+    fileRecordingsServiceSharingEnabled: false,
 
     // Whether to enable live streaming or not.
     liveStreamingEnabled: true,
